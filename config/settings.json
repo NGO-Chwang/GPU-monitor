@@ -1,0 +1,24 @@
+{
+  "hosts": [
+    "doraemon01",
+    "doraemon02"
+  ],
+  "reverse_hosts": true,
+  "cache_ttl_seconds": 60,
+  "collector_poll_seconds": 2,
+  "dashboard_check_seconds": 5,
+  "scan_workers": 6,
+  "ssh_timeout_seconds": 5,
+  "zombie_threshold_gb": 0.1,
+  "contact_username": "chwang",
+  "trust_proxy_headers": false,
+  "visitor_logging_enabled": true,
+  "gpu_health": {
+    "enabled": true,
+    "warning_memory_gb": 1.0,
+    "critical_memory_gb": 0.2,
+    "min_runtime_minutes": 10,
+    "temperature_warning_c": 85,
+    "zombie_is_warning": true
+  }
+}
